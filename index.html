@@ -81,73 +81,11 @@
         <div class="stricky-header stricked-menu main-menu main-menu-three">
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
-
-        <!--Main Slider Start-->
-        <section class="main-slider-three">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-    "effect": "fade",
-     "pagination": {
-        "el": "#main-slider-pagination",
-        "type": "bullets",
-        "clickable": true
-      },
-    "navigation": {
-        "nextEl": "#main-slider__swiper-button-next",
-        "prevEl": "#main-slider__swiper-button-prev"
-    },
-    "autoplay": {
-        "delay": 10000
-    }}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="image-layer">
-                            <video width="1800" height="1040" controls autoplay loop>             
-                                <source src="assets/images/import.mp4" type="video/mp4">
-                              </video> 
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-8">
-                                    <!-- <div class="main-slider-three__content">
-                                        <h2>THINK AND <br> SELL <br> GLOBALLY </h2>
-                                        <p>We are committed to provide the best high quality products to our customers with timely delivery </p>
-                                        <div class="main-slider-three__btn-box">
-                                            <a href="about.html" class="thm-btn">Discover More</a>
-                                            <div class="main-slider-three__arrow">
-                                                <img src="assets/images/shapes/main-slider-three-arrow.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-layer">
-                          <video width="1800" height="1040" controls autoplay loop>             
-                            <source src="assets/images/import.mp4" type="video/mp4">
-                          </video>
-                        </div>
-
-                    </div>  
-                    
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="slider-bottom-box clearfix">
-                    <div class="swiper-pagination" id="main-slider-pagination"></div>
-                    <div class="main-slider__nav">
-                        <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                            <span class="icon-arrow-left"></span>
-                        </div>
-                        <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                            <span class="icon-arrow-right"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Main Slider End-->
-
+        <video autoplay muted loop id="myVideo" style="width:100%;object-fit:cover !important; height:700px;">
+            <source src="assets/images/import.mp4" type="video/mp4" >
+            Your browser does not support HTML5 video.
+          </video>
+          <br/>
         <section class="feature-one">
             <div class="feature-one__container">
                 <ul class="list-unstyled feature-one__list clearfix">
@@ -409,24 +347,14 @@
 
         <!--Watch Video Start-->
         <section class="watch-video">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="watch-video__inner">
-                            <div class="watch-video-bg-box">
-                                <div class="watch-video-bg jarallax" data-jarallax data-speed="0.2"
-                                    data-imgPosition="50% 0%"
-                                    style="background-image: url(assets/images/backgrounds/watch.png)"></div>
-                            </div>
-                            <div class="watch-video__box-1"></div>
-                            <div class="watch-video__box-2"></div>
                             <div class="watch-video__video-link">
-                                <video></video>
-                                <a href="" class="video-popup">
-                                    <video width="1000" height="700" controls autoplay>
+                                    <video width="1000" height="700" controls autoplay loop style="margin-bottom: -70px;">
                                         <source src="assets/images/import.mp4" type="video/mp4">
-                                       </video>
-                                </a>
+                                    </video>
                             </div>
                         </div>
                     </div>
@@ -781,9 +709,8 @@
                                         USA</p>
                                     <h4 class="footer-widget__contact-email-phone">
                                         <a href="mailto:needhelp@company.com"
-                                            class="footer-widget__contact-email">needhelp@company.com</a>
-                                        <a href="tel:926668880000" class="footer-widget__contact-phone">+ 92 666 888
-                                            0000</a>
+                                            class="footer-widget__contact-email">tradeoverseas@company.com</a>
+                                        <a href="tel:926668880000" class="footer-widget__contact-phone">+ 92 6668880000</a>
                                     </h4>
                                 </div>
                             </div>
@@ -795,14 +722,12 @@
                                         <li><a href="team.html">Meet Our Team</a></li>
                                         <li><a href="project.html">Our Portfolio</a></li>
                                         <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="blog.html">News</a></li>
                                     </ul>
                                     <ul
                                         class="footer-widget__links-list footer-widget__links-list-two list-unstyled clearfix">
                                         <li><a href="faq.html">FAQs</a></li>
                                         <li><a href="about.html">Terms & Conditions</a></li>
                                         <li><a href="about.html">Privacy Policy</a></li>
-                                        <li><a href="about.html">Help</a></li>
                                         <li><a href="services.html">Services</a></li>
                                     </ul>
                                 </div>
