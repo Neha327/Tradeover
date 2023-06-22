@@ -132,7 +132,7 @@ ul {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 14px 58px 14px;
+    padding:6px 16px 6px;
     transition: all 0.3s linear;
     overflow: hidden;
     border: 2px solid var(--mibooz-primary);
@@ -318,6 +318,25 @@ ul {
 /*--------------------------------------------------------------
 # Navigations One
 --------------------------------------------------------------*/
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 16px;
+    color: #f6e58d;
+    background-color: #30336b;
+    &--shadow {
+      box-shadow: 0 0 10px rgba(#000, .5);
+    }
+}
+
+
 .main-header {
     background: #294870;
     position: absolute;
@@ -341,7 +360,7 @@ ul {
 
 .main-menu {
     position: relative;
-    padding: 10px 50px;
+    padding: 24px 53px;
     z-index: 91;
 }
 
@@ -2698,6 +2717,7 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #294870;
     opacity: 0.05;
     z-index: -1;
 }
@@ -2831,7 +2851,7 @@ ul {
 .project-one {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    padding: 5px 0 50px;
 }
 
 .project-one .section-title {
@@ -3895,7 +3915,7 @@ ul {
 .site-footer {
     position: relative;
     display: block;
-    background-color: #17161a;
+    background-color: #1d3d4e;
     z-index: 1;
 }
 
@@ -3903,7 +3923,7 @@ ul {
     position: relative;
     display: block;
     border-bottom: 1px solid rgba(var(--mibooz-base-rgb), .10);
-    padding: 44px 0 38px;
+    padding: 14px 0 14px;
     z-index: 1;
 }
 
@@ -3972,7 +3992,7 @@ ul {
     justify-content: center;
     text-align: center;
     color: var(--mibooz-base);
-    font-size: 20px;
+    font-size: 30px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -4315,7 +4335,6 @@ ul {
 
 .feature-one__title a {
     color: var(--mibooz-black);
-    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 46% / 0px 1px no-repeat;
     transition: all 500ms ease;
 }
 
@@ -5517,8 +5536,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 92px 0;
-    padding-top: 30px;
+    padding: 25px 0;
 }
 
 .cta-two__box-1 {
@@ -5797,7 +5815,7 @@ ul {
 .welcome-three {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 72px 0 58px;
 }
 
 .welcome-three__left {
@@ -6106,8 +6124,7 @@ ul {
     position: relative;
     display: block;
     background-color: var(--mibooz-extra);
-    padding: 180px 0 112px;
-    margin-top: -60px;
+    padding: 70px 0 190px;
     z-index: 1;
 }
 
@@ -6301,7 +6318,7 @@ ul {
 .we-build {
     position: relative;
     display: block;
-    padding: 0 0 120px;
+    padding: 70px 0 17px;
     z-index: 1;
 }
 
