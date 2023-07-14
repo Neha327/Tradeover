@@ -335,6 +335,19 @@ ul {
     }
 }
 
+@media  (min-device-width: 320px) and (max-device-width: 425px) 
+{
+    .topbar 
+    {
+        font-size: 8px;
+    }
+
+    .main-menu-wrapper__logo
+    {
+        margin-top: 16px;
+    }
+
+}
 
 .main-header {
     background: #294870;
@@ -6317,7 +6330,7 @@ ul {
 .we-build {
     position: relative;
     display: block;
-    padding: 70px 0 17px;
+    padding: 70px 0 45px;
     z-index: 1;
 }
 
@@ -6462,7 +6475,7 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
     line-height: 30px;
-    margin-bottom: 21px;
+    margin-bottom: 5px;
 }
 
 .we-build__points-text {
@@ -6557,9 +6570,9 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: var(--mibooz-black);
+    /* background-color: var(--mibooz-black); */
     background-blend-mode: luminosity;
-    opacity: .20;
+    opacity: .30;
     z-index: -1;
 }
 
@@ -8326,7 +8339,7 @@ ul {
 }
 
 .abut-page__btn {
-    color: var(--mibooz-black);
+    color: #f6f6f6;
 }
 
 /*About Page Testimonial Two*/
