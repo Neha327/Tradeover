@@ -335,7 +335,7 @@ ul {
     }
 }
 
-@media  (min-device-width: 320px) and (max-device-width: 425px) 
+@media  (min-device-width: 320px) and  (max-device-width: 373px)
 {
     .topbar 
     {
@@ -345,6 +345,61 @@ ul {
     .main-menu-wrapper__logo
     {
         margin-top: 16px;
+    }
+
+}
+@media  (min-device-width: 374px) and (max-device-width: 424px) {
+
+    .topbar 
+    {
+        font-size: 9px;
+    }
+
+    .main-menu-wrapper__logo
+    {
+        margin-top: 32px;
+    }
+
+}
+
+@media  (min-device-width: 425px) and (max-device-width: 767px) {
+
+    .topbar 
+    {
+        font-size: 10px;
+    }
+
+    .main-menu-wrapper__logo
+    {
+        margin-top: 32px;
+    }
+
+}
+
+@media  (min-device-width: 768px) and (max-device-width: 1023px) {
+
+    .topbar 
+    {
+        font-size: 12px;
+    }
+
+    .main-menu-wrapper__logo
+    {
+        margin-top: 32px;
+    }
+
+}
+
+@media  (min-device-width: 1024px) and (max-device-width: 1439px) {
+
+    .topbar 
+    {
+        font-size: 8px;
+    }
+
+    .main-menu-wrapper__logo
+    {
+        margin-top: 32px;
     }
 
 }
@@ -385,6 +440,7 @@ ul {
 .main-menu-wrapper__logo {
     position: relative;
     z-index: 11;
+
 }
 
 .main-menu-wrapper__main-menu {
@@ -8241,6 +8297,34 @@ ul {
     margin: 0 auto;
     display: block;
 }
+
+/* additonal */
+input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea {
+      resize: vertical;
+    }
+    input[type="submit"] {
+      background-color: #294870;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #066699;
+    }
+
+    /* emd */
 
 /*--------------------------------------------------------------
 # Contact Page Google Map

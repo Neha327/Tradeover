@@ -151,45 +151,59 @@
         <section class="contact-page">
             <div class="container">
                 <div class="section-title text-center">
-                    <span class="section-title__tagline">contact with us</span>
-                    <h2 class="section-title__title">have question?</h2>
+                    <span class="section-title__tagline">buyer and seller contact form</span>
+                    <h2 class="section-title__title">have question contact us?</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="contact-page__form">
-                            <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Your name" name="name">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="comment-form__input-box">
-                                            <input type="email" placeholder="Email address" name="email">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="comment-form__input-box">
-                                            <input type="text" placeholder="Phone" name="phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="comment-form__input-box">
-                                            <input type="email" placeholder="Subject" name="subject">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-12">
-                                        <div class="comment-form__input-box">
-                                            <textarea name="message" placeholder="Write message"></textarea>
-                                        </div>
-                                        <button
-                                         type="submit" class="thm-btn comment-form__btn">send a message</button>
-                                    </div>
-                                </div>
-                            </form>
+                    <div class="contact-page__form">
+
+                <form id="buyerSellerForm" action="#" method="post">
+                    <label for="contactMethod">Are You A Buyer Or Seller:</label>
+                    <select id="contactMethod" name="contactMethod" required>
+                    <option value="">Choose</option>
+                    <option value="phone">Buyer</option>
+                    <option value="email">Seller</option>
+                    </select>
+
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="state">State/Province:</label>
+                    <input type="text" id="state" name="state" required>
+
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+
+                    <label for="postalCode">Postal Code:</label>
+                    <input type="text" id="postalCode" name="postalCode" required>
+
+                    <label for="contactMethod">Preferred Method of Contact:</label>
+                    <select id="contactMethod" name="contactMethod" required>
+                    <option value="">Select One</option>
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    </select>
+                   
+                    <label for="termsConditions">
+                    <input type="checkbox" id="termsConditions" name="termsConditions" required>
+                     I agree to the terms and conditions.
+                    </label>
+                    <br/>
+                    <input type="submit" value="Submit">
+            </form>
                         </div>
                     </div>
                 </div>
@@ -270,7 +284,6 @@
 
 
     </div><!-- /.page-wrapper -->
-
 
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
